@@ -1,0 +1,498 @@
+{
+  "V-409-777-1000": [
+    {
+      "SHORT_MSG": "Appliance upgrade preflight check passed."
+    },
+    {
+      "LONG_MSG": "Appliance upgrade preflight check passed."
+    }
+  ],
+  "V-409-777-1002": [
+    {
+      "SHORT_MSG": "Appliance upgrade preflight check failed."
+    },
+    {
+      "LONG_MSG": "Appliance upgrade preflight check failed."
+    }
+  ],
+  "V-409-777-1010": [
+    {
+      "SHORT_MSG": "System clock check passed."
+    },
+    {
+      "LONG_MSG": "System clock check passed."
+    }
+  ],
+  "V-409-777-1012": [
+    {
+      "SHORT_MSG": "System clock check failed. The system date and the upgrade package date mismatch."
+    },
+    {
+      "LONG_MSG": "System clock check failed: System/build date mismatch. You must reset the system clock to the correct time before continuing with the upgrade. Refer to the NetBackup Appliance Administrator's Guide for more information."
+    }
+  ],
+  "V-409-777-1020": [
+    {
+      "SHORT_MSG": "Appliance restart days check passed."
+    },
+    {
+      "LONG_MSG": "Appliance restart days check passed."
+    }
+  ],
+  "V-409-777-1022": [
+    {
+      "SHORT_MSG": "Appliance restart days check failed. This appliance has not been restarted in 14 days."
+    },
+    {
+      "LONG_MSG": "Appliance restart days check failed: This Appliance has not been restarted in 14 days. You must first restart this appliance. The restart may require extended time to complete. After the restart has completed, you must launch upgrade readiness analyzer or upgrade again manually."
+    }
+  ],
+  "V-409-777-1030": [
+    {
+      "SHORT_MSG": "Appliance software version check passed."
+    },
+    {
+      "LONG_MSG": "Appliance software version check passed."
+    }
+  ],
+  "V-409-777-1032": [
+    {
+      "SHORT_MSG": "Appliance software version check failed.  The appliance software version is incompatible."
+    },
+    {
+      "LONG_MSG": "Appliance software version check failed: Incompatible system software version. This appliance is running a software version that is earlier than 2.6.1. Or the current Appliance software version is later than or the same as the upgrade RPM package version. you must first upgrade the appliance to version 2.6.1.2 before continuing with the upgrade. Refer to the NetBackup Appliance Upgrade Guide for more information."
+    }
+  ],
+  "V-409-777-1040": [
+    {
+      "SHORT_MSG": "Appliance hardware model check passed."
+    },
+    {
+      "LONG_MSG": "Appliance hardware model check passed."
+    }
+  ],
+  "V-409-777-1042": [
+    {
+      "SHORT_MSG": "Appliance hardware model check failed. The appliance hardware model is incompatible."
+    },
+    {
+      "LONG_MSG": "Appliance hardware model check failed: Incompatible appliance hardware model. The Appliance hardware is incompatible with the target software version of the upgrade RPM package. NetBackup 5240 Appliance only supports software release 2.7.3 and later."
+    }
+  ],
+  "V-409-777-1050": [
+    {
+      "SHORT_MSG": "NetBackup software version on master server check passed."
+    },
+    {
+      "LONG_MSG": "NetBackup software version on master server check passed."
+    }
+  ],
+  "V-409-777-1052": [
+    {
+      "SHORT_MSG": "NetBackup software version on master server check failed. The NetBackup software version on the master server is incompatible ."
+    },
+    {
+      "LONG_MSG": "NetBackup software version on master server check failed: Incompatible NetBackup software version on master server. If a traditional NetBackup master server is used with a media server appliance, that master server must have the same NetBackup version or later as the media server appliance. For example, before you upgrade a media server appliance with NetBackup appliance version 3.0, first upgrade the master server to NetBackup version 8.0."
+    }
+  ],
+  "V-409-777-1060": [
+    {
+      "SHORT_MSG": "NetBackup deduplication configuration check passed."
+    },
+    {
+      "LONG_MSG": "NetBackup deduplication configuration check passed."
+    }
+  ],
+  "V-409-777-1062": [
+    {
+      "SHORT_MSG": "NetBackup deduplication configuration check failed. The deduplication configuration file 'pdregistry.cfg' is missing."
+    },
+    {
+      "LONG_MSG": "NetBackup deduplication configuration check failed: The deduplication configuration file pdregistry.cfg is missing. For assistance, contact Veritas Technical Support."
+    }
+  ],
+  "V-409-777-1070": [
+    {
+      "SHORT_MSG": "System volume group free space check passed."
+    },
+    {
+      "LONG_MSG": "System volume group free space check passed."
+    }
+  ],
+  "V-409-777-1072": [
+    {
+      "SHORT_MSG": "System volume group free space check failed."
+    },
+    {
+      "LONG_MSG": "System volume group free space check failed: Insufficient free space for system volume group.  For assistance, contact Veritas Technical Support."
+    }
+  ],
+  "V-409-777-1080": [
+    {
+      "SHORT_MSG": "MSDP free space check passed."
+    },
+    {
+      "LONG_MSG": "MSDP free space check passed."
+    }
+  ],
+  "V-409-777-1082": [
+    {
+      "SHORT_MSG": "MSDP free space check failed."
+    },
+    {
+      "LONG_MSG": "MSDP free space check failed: Insufficient free space for MSDP or catalog. Refer to the NetBackup Appliance Administrator's Guide for more information about allocating space for MSDP."
+    }
+  ],
+  "V-409-777-1090": [
+    {
+      "SHORT_MSG": "Teradata packages check passed."
+    },
+    {
+      "LONG_MSG": "Teradata packages check passed."
+    }
+  ],
+  "V-409-777-1092": [
+    {
+      "SHORT_MSG": "Teradata packages check failed. TeraData binaries exist on this appliance."
+    },
+    {
+      "LONG_MSG": "Teradata packages check failed:  TeraData binaries exist on this appliance. TeraData binaries are not supported on NetBackup Appliance release 2.7.1 or later. To upgrade this system, remove all TeraData packages from the system and then begin the upgrade process again."
+    }
+  ],
+  "V-409-777-1100": [
+    {
+      "SHORT_MSG": "USB driver check passed."
+    },
+    {
+      "LONG_MSG": "USB driver check passed."
+    }
+  ],
+  "V-409-777-1102": [
+    {
+      "SHORT_MSG": "USB driver check failed. One or more USB mass storage devices are connected to this appliance."
+    },
+    {
+      "LONG_MSG": "USB driver check failed: One or more USB mass storage devices are connected to this appliance. To complete the upgrade, remove all USB mass storage devices from this appliance, and try again."
+    }
+  ],
+  "V-409-777-1130": [
+    {
+      "SHORT_MSG": "Appliance configuration partition space check passed."
+    },
+    {
+      "LONG_MSG": "Appliance configuration partition space check passed."
+    }
+  ],
+  "V-409-777-1132": [
+    {
+      "SHORT_MSG": "Appliance configuration partition space check failed."
+    },
+    {
+      "LONG_MSG": "Appliance configuration partition space check failed: Insufficient free space for the NetBackup appliance configuration partition (/config). You must increase this partition to 100 GB to complete the upgrade. Refer to the NetBackup Appliance Administrator's Guide for more information about allocating more allocated size for the NetBackup appliance configuration partition."
+    }
+  ],
+  "V-409-777-1140": [
+    {
+      "SHORT_MSG": "NFS share mount point check passed."
+    },
+    {
+      "LONG_MSG": "NFS share mount point check passed."
+    }
+  ],
+  "V-409-777-1141": [
+    {
+      "SHORT_MSG": "NFS share mount point check failed. The NFS share is open on the appliance."
+    },
+    {
+      "LONG_MSG": "NFS share mount point check failed: The NFS share is open on the appliance. The upgrade process must close these shares to complete the upgrade, resulting in any active NFS client read/write operations on a share to fail or become unresponsive. After the upgrade has completed, you must re-open the shares on the appliance and then remount on the NFS clients manually to regain access."
+    }
+  ],
+  "V-409-777-1150": [
+    {
+      "SHORT_MSG": "Disk firmware version check passed."
+    },
+    {
+      "LONG_MSG": "Disk firmware version check passed."
+    }
+  ],
+  "V-409-777-1151": [
+    {
+      "SHORT_MSG": "Disk firmware version check failed. The disk firmware version is incompatible."
+    },
+    {
+      "LONG_MSG": "Disk firmware version check failed: The disk firmware version is earlier than 0006. Veritas recommends that you install this appliance with disk firmware versions 0006 or later. You can continue with this appliance software upgrade and then update the disk firmware after the upgrade has completed. For details about updating the appliance disk firmware, refer to Tech Notes 000108370 and 000108372 on the Veritas Support web site."
+    }
+  ],
+  "V-409-777-1160": [
+    {
+      "SHORT_MSG": "SCSP IPS policy state check passed."
+    },
+    {
+      "LONG_MSG": "SCSP IPS policy state check passed."
+    }
+  ],
+  "V-409-777-1161": [
+    {
+      "SHORT_MSG": "SCSP IPS policy state check failed. The SCSP IPS policy is overridden on this appliance."
+    },
+    {
+      "LONG_MSG": "SCSP IPS policy state check failed: The SCSP IPS (Intrusion Prevention System) policy is overridden on this appliance. It is scheduled to be enabled according to your setting. To increase the security of this appliance, Veritas recommends that you re-enable the IPS policy immediately after the upgrade has completed. For complete details, see the NetBackup Appliance Security Guide."
+    }
+  ],
+  "V-409-777-1170": [
+    {
+      "SHORT_MSG": "Security certificates check passed."
+    },
+    {
+      "LONG_MSG": "Security certificates check passed."
+    }
+  ],
+  "V-409-777-1172": [
+    {
+      "SHORT_MSG": "Security certificates check failed."
+    },
+    {
+      "LONG_MSG": "Security certificates check failed."
+    }
+  ],
+  "V-409-777-1180": [
+    {
+      "SHORT_MSG": "Host ID certificates deployment passed."
+    },
+    {
+      "LONG_MSG": "Host ID certificates deployment passed."
+    }
+  ],
+  "V-409-777-1182": [
+    {
+      "SHORT_MSG": "Host ID certificates deployment failed."
+    },
+    {
+      "LONG_MSG": "Host ID Certificates deployment failed."
+    }
+  ],
+  "V-409-777-1710": [
+    {
+      "SHORT_MSG": "VM disk free space check passed."
+    },
+    {
+      "LONG_MSG": "VM disk free space check passed."
+    }
+  ],
+  "V-409-777-1712": [
+    {
+      "SHORT_MSG": "VM disk free space check failed."
+    },
+    {
+      "LONG_MSG": "VM disk free space check failed: Insufficient free space for partition '/config' or '/repository'."
+    }
+  ],
+  "V-409-777-1720": [
+    {
+      "SHORT_MSG": "System free space check passed."
+    },
+    {
+      "LONG_MSG": "System free space check passed."
+    }
+  ],
+  "V-409-777-1722": [
+    {
+      "SHORT_MSG": "System free space check failed."
+    },
+    {
+      "LONG_MSG": "System free space check failed: Insufficient space for partition '/', '/inst', '/log', or '/boot'. For assistance, contact Veritas Technical Support."
+    }
+  ],
+  "V-409-777-1740": [
+    {
+      "SHORT_MSG": "Open Storage pluggin check passed."
+    },
+    {
+      "LONG_MSG": "Open Storage pluggin check passed."
+    }
+  ],
+  "V-409-777-1742": [
+    {
+      "SHORT_MSG": "Open Storage pluggin check failed. The RHEL Open Storage pluggins can not be found."
+    },
+    {
+      "LONG_MSG": "Open Storage pluggin check failed: the RHEL Open Storage pluggins can not be found. Resolve this issue by opening the share ( Manage > OpenStorage > Share Open ) and copying the required pluggins to /inst/plugin/incoming. Refer to the NetBackup Appliance Upgrade Guide."
+    }
+  ],
+  "V-409-777-1750": [
+    {
+      "SHORT_MSG": "Linux startup script modification passed."
+    },
+    {
+      "LONG_MSG": "Linux startup script modification passed."
+    }
+  ],
+  "V-409-777-1752": [
+    {
+      "SHORT_MSG": "Linux startup script modification failed. The 'rc.local' file is not modifiable."
+    },
+    {
+      "LONG_MSG": "Linux startup script modification failed: The 'rc.local' file is not modifiable. For assistance, contact Veritas Technical Support."
+    }
+  ],
+  "V-409-777-1760": [
+    {
+      "SHORT_MSG": "Removal of unneeded checkpoints passed."
+    },
+    {
+      "LONG_MSG": "Removal of unneeded checkpoints passed."
+    }
+  ],
+  "V-409-777-1761": [
+    {
+      "SHORT_MSG": "Removal of unneeded checkpoints failed."
+    },
+    {
+      "LONG_MSG": "Removal of unneeded checkpoints failed."
+    }
+  ],
+  "V-409-777-2000": [
+    {
+      "SHORT_MSG": "Appliance pre-upgrade self-test passed."
+    },
+    {
+      "LONG_MSG": "Appliance pre-upgrade self-test passed."
+    }
+  ],
+  "V-409-777-2002": [
+    {
+      "SHORT_MSG": "Appliance pre-upgrade self-test failed."
+    },
+    {
+      "LONG_MSG": "Appliance pre-upgrade self-test failed."
+    }
+  ],
+  "V-409-777-3000": [
+    {
+      "SHORT_MSG": "Pre_upgrade checkpoint creation passed."
+    },
+    {
+      "LONG_MSG": "Pre_upgrade checkpoint creation passed."
+    }
+  ],
+  "V-409-777-3002": [
+    {
+      "SHORT_MSG": "Pre_upgrade checkpoint creation failed."
+    },
+    {
+      "LONG_MSG": "Pre_upgrade checkpoint creation failed."
+    }
+  ],
+  "V-409-777-3010": [
+    {
+      "SHORT_MSG": "Removal of old checkpoints passed."
+    },
+    {
+      "LONG_MSG": "Removal of old checkpoints passed."
+    }
+  ],
+  "V-409-777-3011": [
+    {
+      "SHORT_MSG": "Removal of old checkpoints failed."
+    },
+    {
+      "LONG_MSG": "Removal of old checkpoints failed."
+    }
+  ],
+  "V-409-777-4000": [
+    {
+      "SHORT_MSG": "Pre-upgrade tasks passed."
+    },
+    {
+      "LONG_MSG": "Pre-upgrade tasks passed."
+    }
+  ],
+  "V-409-777-4002": [
+    {
+      "SHORT_MSG": "Pre-upgrade tasks failed."
+    },
+    {
+      "LONG_MSG": "Pre-upgrade tasks failed."
+    }
+  ],
+  "V-409-777-5000": [
+    {
+      "SHORT_MSG": "Appliance software upgrade passed."
+    },
+    {
+      "LONG_MSG": "Appliance software upgrade passed."
+    }
+  ],
+  "V-409-777-5002": [
+    {
+      "SHORT_MSG": "Appliance software upgrade failed."
+    },
+    {
+      "LONG_MSG": "Appliance software upgrade failed."
+    }
+  ],
+  "V-409-777-6000": [
+    {
+      "SHORT_MSG": "Post-upgrade tasks passed."
+    },
+    {
+      "LONG_MSG": "Post-upgrade tasks passed."
+    }
+  ],
+  "V-409-777-6002": [
+    {
+      "SHORT_MSG": "Post-upgrade tasks failed."
+    },
+    {
+      "LONG_MSG": "Post-upgrade tasks failed."
+    }
+  ],
+  "V-409-777-7000": [
+    {
+      "SHORT_MSG": "NetBackup upgrade passed."
+    },
+    {
+      "LONG_MSG": "NetBackup upgrade passed."
+    }
+  ],
+  "V-409-777-7002": [
+    {
+      "SHORT_MSG": "NetBackup upgrade failed."
+    },
+    {
+      "LONG_MSG": "NetBackup upgrade failed."
+    }
+  ],
+  "V-409-777-8010": [
+    {
+      "SHORT_MSG": "Appliance post-upgrade self-test passed."
+    },
+    {
+      "LONG_MSG": "Appliance post-upgrade self-test passed."
+    }
+  ],
+  "V-409-777-8012": [
+    {
+      "SHORT_MSG": "Appliance post-upgrade self-test failed."
+    },
+    {
+      "LONG_MSG": "Appliance post-upgrade self-test failed."
+    }
+  ],
+  "V-409-777-9010": [
+    {
+      "SHORT_MSG": "Post_upgrade checkpoint creation passed."
+    },
+    {
+      "LONG_MSG": "Post_upgrade checkpoint creation passed."
+    }
+  ],
+  "V-409-777-9012": [
+    {
+      "SHORT_MSG": "Post_upgrade checkpoint creation failed."
+    },
+    {
+      "LONG_MSG": "Post_upgrade checkpoint creation failed."
+    }
+  ]
+}
